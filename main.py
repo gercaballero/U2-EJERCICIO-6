@@ -80,10 +80,10 @@ if __name__ == '__main__':
     os.system('cls')
     print('~~~~~ ¿F1 > F2? ~~~~~')
     comp=f1>f2
-    if comp:
+    if comp==1:
         print('LA FECHA 1 ES MAYOR QUE LA FECHA 2')
-    elif comp==None:
-        print('')
-    else:
+    elif comp==0:
+        print('LA FECHA 1 ES IGUAL A LA FECHA 2')
+    elif comp==2:
         print('LA FECHA 2 ES MAYOR QUE LA FECHA 1')
 
